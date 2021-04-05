@@ -4,7 +4,7 @@ metadata:
   name: coffee-gateway
 spec:
   selector:
-    istio: istio-ingressgateway
+    istio: istio-system.istio-ingressgateway
   servers:
   - port:
       number: 80
