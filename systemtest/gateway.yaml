@@ -11,7 +11,7 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "*"
+    - "192.168.99.95"
 ---
 
 apiVersion: networking.istio.io/v1alpha3
@@ -20,7 +20,7 @@ metadata:
   name: coffee-gateway
 spec:
   hosts:
-  - "*"
+  - "192.168.99.95"
   gateways:
   - coffee-gateway
   http:
