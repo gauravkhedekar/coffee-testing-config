@@ -58,7 +58,7 @@ spec:
     - deploy-systemtest
     params:
     - name: gateway
-      value: 'test.coffee.daschner.dev'
+      value: '192.168.99.103'
     - name: appGitUrl
       value: $(params.appGitUrl)
     - name: buildRevision
