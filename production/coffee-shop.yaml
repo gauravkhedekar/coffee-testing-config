@@ -25,7 +25,7 @@ spec:
         app: coffee-shop
         version: v1
       annotations:
-        revision: "fb0f69f6c4f423fb2e5e47f29dcf5dbc16cf9437"
+        revision: "d9c7ccb0713da882d8373169e2a1d705f5959386"
     spec:
       containers:
       - name: coffee-shop
